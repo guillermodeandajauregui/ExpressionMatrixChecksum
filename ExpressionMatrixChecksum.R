@@ -1,10 +1,7 @@
 
 library(digest)
-print("load 1")
 library(argparser)
-print("load 2")
 library(data.table)
-print("load 3")
 
 p = arg_parser("files")
 p = add_argument(p, "input", help = "input file")
